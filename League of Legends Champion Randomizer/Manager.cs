@@ -363,6 +363,7 @@ namespace League_of_Legends_Champion_Randomizer
                     catch (UriFormatException ex)
                     {
                         Console.WriteLine(url);
+                        Console.WriteLine(ex);
                         throw;
                     }
                     

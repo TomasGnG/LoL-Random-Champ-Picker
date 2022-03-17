@@ -5,6 +5,17 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "League of Legends Champion Randomizer", "League of Legends Champion Randomizer\League of Legends Champion Randomizer.csproj", "{C5410771-74C1-4718-9B8D-4BAC295A6ECA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gfx", "gfx", "{8E8A23E6-65E2-4A97-9E51-E79CE6B2668E}"
+	ProjectSection(SolutionItems) = preProject
+		League of Legends Champion Randomizer\gfx\adcIcon.png = League of Legends Champion Randomizer\gfx\adcIcon.png
+		League of Legends Champion Randomizer\gfx\jglIcon.png = League of Legends Champion Randomizer\gfx\jglIcon.png
+		League of Legends Champion Randomizer\gfx\midIcon.png = League of Legends Champion Randomizer\gfx\midIcon.png
+		League of Legends Champion Randomizer\gfx\SoftwareBackground.jpg = League of Legends Champion Randomizer\gfx\SoftwareBackground.jpg
+		League of Legends Champion Randomizer\gfx\SoftwareIcon.ico = League of Legends Champion Randomizer\gfx\SoftwareIcon.ico
+		League of Legends Champion Randomizer\gfx\suppIcon.png = League of Legends Champion Randomizer\gfx\suppIcon.png
+		League of Legends Champion Randomizer\gfx\topIcon.png = League of Legends Champion Randomizer\gfx\topIcon.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

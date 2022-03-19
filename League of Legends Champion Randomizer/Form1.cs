@@ -19,8 +19,8 @@ namespace League_of_Legends_Champion_Randomizer
         {
             InitializeComponent();
             
-            this.Icon = new Icon(AppDomain.CurrentDomain.BaseDirectory + @"\gfx\SoftwareIcon.ico");
-            this.BackgroundImage = Image.FromFile(AppDomain.CurrentDomain.BaseDirectory + @"\gfx\SoftwareBackground.jpg");
+            this.Icon = new Icon(AppDomain.CurrentDomain.BaseDirectory + @"\icons\SoftwareIcon.ico");
+            this.BackgroundImage = Image.FromFile(AppDomain.CurrentDomain.BaseDirectory + @"\icons\SoftwareBackground.jpg");
             this.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox1.SendToBack();
 
@@ -31,15 +31,15 @@ namespace League_of_Legends_Champion_Randomizer
 
         private void SetAllButtonImages()
         {
-            topButton.BackgroundImage = Image.FromFile(AppDomain.CurrentDomain.BaseDirectory + @"\gfx\topIcon.png");
+            topButton.BackgroundImage = Image.FromFile(AppDomain.CurrentDomain.BaseDirectory + @"\icons\topIcon.png");
             topButton.BackgroundImageLayout = ImageLayout.Center;
-            jglButton.BackgroundImage = Image.FromFile(AppDomain.CurrentDomain.BaseDirectory + @"\gfx\jglIcon.png");
+            jglButton.BackgroundImage = Image.FromFile(AppDomain.CurrentDomain.BaseDirectory + @"\icons\jglIcon.png");
             jglButton.BackgroundImageLayout = ImageLayout.Center;
-            midButton.BackgroundImage = Image.FromFile(AppDomain.CurrentDomain.BaseDirectory + @"\gfx\midIcon.png");
+            midButton.BackgroundImage = Image.FromFile(AppDomain.CurrentDomain.BaseDirectory + @"\icons\midIcon.png");
             midButton.BackgroundImageLayout = ImageLayout.Center;
-            adcButton.BackgroundImage = Image.FromFile(AppDomain.CurrentDomain.BaseDirectory + @"\gfx\adcIcon.png");
+            adcButton.BackgroundImage = Image.FromFile(AppDomain.CurrentDomain.BaseDirectory + @"\icons\adcIcon.png");
             adcButton.BackgroundImageLayout = ImageLayout.Center;
-            suppButton.BackgroundImage = Image.FromFile(AppDomain.CurrentDomain.BaseDirectory + @"\gfx\suppIcon.png");
+            suppButton.BackgroundImage = Image.FromFile(AppDomain.CurrentDomain.BaseDirectory + @"\icons\suppIcon.png");
             suppButton.BackgroundImageLayout = ImageLayout.Center;
         }
 

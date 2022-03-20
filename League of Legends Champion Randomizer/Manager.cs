@@ -2,10 +2,7 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
-using System.Linq;
 using System.Net;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace League_of_Legends_Champion_Randomizer
 {
@@ -355,7 +352,7 @@ namespace League_of_Legends_Champion_Randomizer
                 if(line.StartsWith(name.ToUpper()))
                 {
                     url = line.Substring(name.ToUpper().Length + 1);
-                    HttpWebRequest httpWebRequest;
+                    HttpWebRequest httpWebRequest = null;
                     try
                     {
                         httpWebRequest = (HttpWebRequest)HttpWebRequest.Create(url);
@@ -363,8 +360,8 @@ namespace League_of_Legends_Champion_Randomizer
                     catch (UriFormatException ex)
                     {
                         Console.WriteLine(url);
+                        Console.WriteLine(name);
                         Console.WriteLine(ex);
-                        throw;
                     }
                     
                     HttpWebResponse httpWebReponse = (HttpWebResponse)httpWebRequest.GetResponse();

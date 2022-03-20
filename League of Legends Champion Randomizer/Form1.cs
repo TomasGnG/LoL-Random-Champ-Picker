@@ -1,12 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace League_of_Legends_Champion_Randomizer
@@ -18,7 +11,6 @@ namespace League_of_Legends_Champion_Randomizer
         public Form1()
         {
             InitializeComponent();
-            
             this.Icon = new Icon(AppDomain.CurrentDomain.BaseDirectory + @"\icons\SoftwareIcon.ico");
             this.BackgroundImage = Image.FromFile(AppDomain.CurrentDomain.BaseDirectory + @"\icons\SoftwareBackground.jpg");
             this.BackgroundImageLayout = ImageLayout.Stretch;

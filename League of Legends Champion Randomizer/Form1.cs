@@ -41,22 +41,22 @@ namespace League_of_Legends_Champion_Randomizer
             switch (button.DataBindings.Control.Name)
             {
                 case "allButton":
-                    UpdatePreviewRandomChamp(_manager.GetRandomChamp("all"));
+                    UpdatePreviewRandomChamp(_manager.GetRandomChamp(Lane.AllLanes));
                     break;
                 case "topButton":
-                    UpdatePreviewRandomChamp(_manager.GetRandomChamp("top"));
+                    UpdatePreviewRandomChamp(_manager.GetRandomChamp(Lane.Top));
                     break;
                 case "jglButton":
-                    UpdatePreviewRandomChamp(_manager.GetRandomChamp("jgl"));
+                    UpdatePreviewRandomChamp(_manager.GetRandomChamp(Lane.Jungle));
                     break;
                 case "midButton":
-                    UpdatePreviewRandomChamp(_manager.GetRandomChamp("mid"));
+                    UpdatePreviewRandomChamp(_manager.GetRandomChamp(Lane.Mid));
                     break;
                 case "adcButton":
-                    UpdatePreviewRandomChamp(_manager.GetRandomChamp("adc"));
+                    UpdatePreviewRandomChamp(_manager.GetRandomChamp(Lane.Adc));
                     break;
                 case "suppButton":
-                    UpdatePreviewRandomChamp(_manager.GetRandomChamp("supp"));
+                    UpdatePreviewRandomChamp(_manager.GetRandomChamp(Lane.Support));
                     break;
             }
         }

@@ -21,250 +21,233 @@ namespace League_of_Legends_Champion_Randomizer
 
         private void InitializeAllChamps()
         {
-            InitializeAllLists("Aatrox", "top");
-            InitializeAllLists("Ahri", "mid");
-            InitializeAllLists("Akali", "mid");
-            InitializeAllLists("Akali", "top");
-            InitializeAllLists("Akshan", "mid");
-            InitializeAllLists("Akshan", "adc");
-            InitializeAllLists("Alistar", "support");
-            InitializeAllLists("Amumu", "jgl");
-            InitializeAllLists("Anivia", "mid");
-            InitializeAllLists("Annie", "mid");
-            InitializeAllLists("Annie", "support");
-            InitializeAllLists("Aphelios", "adc");
-            InitializeAllLists("Ashe", "adc");
-            InitializeAllLists("Aurelion Sol", "mid");
-            InitializeAllLists("Azir", "mid");
-            InitializeAllLists("Bard", "support");
-            InitializeAllLists("Blitzcrank", "support");
-            InitializeAllLists("Brand", "support");
-            InitializeAllLists("Brand", "mid");
-            InitializeAllLists("Braum", "support");
-            InitializeAllLists("Caitlyn", "adc");
-            InitializeAllLists("Camille", "top");
-            InitializeAllLists("Cassiopeia", "top");
-            InitializeAllLists("Cassiopeia", "mid");
-            InitializeAllLists("Cassiopeia", "adc");
-            InitializeAllLists("Cho'Gath", "top");
-            InitializeAllLists("Cho'Gath", "mid");
-            InitializeAllLists("Corki", "mid");
-            InitializeAllLists("Darius", "top");
-            InitializeAllLists("Diana", "mid");
-            InitializeAllLists("Diana", "jgl");
-            InitializeAllLists("Dr.Mundo", "top");
-            InitializeAllLists("Dr.Mundo", "jgl");
-            InitializeAllLists("Draven", "adc");
-            InitializeAllLists("Ekko", "mid");
-            InitializeAllLists("Ekko", "jgl");
-            InitializeAllLists("Elise", "jgl");
-            InitializeAllLists("Evelynn", "jgl");
-            InitializeAllLists("Ezreal", "adc");
-            InitializeAllLists("Fiddlesticks", "jgl");
-            InitializeAllLists("Fiora", "top");
-            InitializeAllLists("Fizz", "mid");
-            InitializeAllLists("Galio", "mid");
-            InitializeAllLists("Galio", "support");
-            InitializeAllLists("Gangplank", "top");
-            InitializeAllLists("Garen", "top");
-            InitializeAllLists("Garen", "mid");
-            InitializeAllLists("Gnar", "top");
-            InitializeAllLists("Gragas", "top");
-            InitializeAllLists("Gragas", "jgl");
-            InitializeAllLists("Gragas", "mid");
-            InitializeAllLists("Graves", "mid");
-            InitializeAllLists("Graves", "top");
-            InitializeAllLists("Graves", "jgl");
-            InitializeAllLists("Gwen", "jgl");
-            InitializeAllLists("Gwen", "top");
-            InitializeAllLists("Hecarim", "jgl");
-            InitializeAllLists("Heimerdinger", "top");
-            InitializeAllLists("Heimerdinger", "mid");
-            InitializeAllLists("Illaoi", "top");
-            InitializeAllLists("Irelia", "top");
-            InitializeAllLists("Irelia", "mid");
-            InitializeAllLists("Ivern", "support");
-            InitializeAllLists("Ivern", "jgl");
-            InitializeAllLists("Janna", "support");
-            InitializeAllLists("Jarvan IV", "jgl");
-            InitializeAllLists("Jax", "jgl");
-            InitializeAllLists("Jax", "top");
-            InitializeAllLists("Jayce", "top");
-            InitializeAllLists("Jayce", "mid");
-            InitializeAllLists("Jhin", "adc");
-            InitializeAllLists("Jinx", "adc");
-            InitializeAllLists("Kai'Sa", "adc");
-            InitializeAllLists("Kai'Sa", "mid");
-            InitializeAllLists("Kalista", "adc");
-            InitializeAllLists("Karma", "support");
-            InitializeAllLists("Karthus", "jgl");
-            InitializeAllLists("Kassadin", "mid");
-            InitializeAllLists("Katarina", "top");
-            InitializeAllLists("Katarina", "mid");
-            InitializeAllLists("Kayle", "mid");
-            InitializeAllLists("Kayle", "top");
-            InitializeAllLists("Kayn", "jgl");
-            InitializeAllLists("Kennen", "top");
-            InitializeAllLists("Kha'Zix", "jgl");
-            InitializeAllLists("Kindred", "jgl");
-            InitializeAllLists("Kled", "top");
-            InitializeAllLists("Kog'Maw", "adc");
-            InitializeAllLists("LeBlanc", "mid");
-            InitializeAllLists("Lee Sin", "jgl");
-            InitializeAllLists("Leona", "support");
-            InitializeAllLists("Lillia", "jgl");
-            InitializeAllLists("Lissandra", "mid");
-            InitializeAllLists("Lucian", "adc");
-            InitializeAllLists("Lulu", "support");
-            InitializeAllLists("Lux", "support");
-            InitializeAllLists("Lux", "mid");
-            InitializeAllLists("Malphite", "mid");
-            InitializeAllLists("Malphite", "top");
-            InitializeAllLists("Malzahar", "mid");
-            InitializeAllLists("Maokai", "support");
-            InitializeAllLists("Master Yi", "jgl");
-            InitializeAllLists("Miss Fortune", "adc");
-            InitializeAllLists("Mordekaiser", "top");
-            InitializeAllLists("Mordekaiser", "jgl");
-            InitializeAllLists("Morgana", "support");
-            InitializeAllLists("Nami", "support");
-            InitializeAllLists("Nasus", "top");
-            InitializeAllLists("Nasus", "jgl");
-            InitializeAllLists("Nautilus", "support");
-            InitializeAllLists("Neeko", "support");
-            InitializeAllLists("Neeko", "mid");
-            InitializeAllLists("Nidalee", "jgl");
-            InitializeAllLists("Nocturne", "jgl");
-            InitializeAllLists("Nunu & Willump", "jgl");
-            InitializeAllLists("Olaf", "jgl");
-            InitializeAllLists("Orianna", "mid");
-            InitializeAllLists("Ornn", "top");
-            InitializeAllLists("Pantheon", "top");
-            InitializeAllLists("Pantheon", "mid");
-            InitializeAllLists("Pantheon", "support");
-            InitializeAllLists("Pantheon", "jgl");
-            InitializeAllLists("Poppy", "jgl");
-            InitializeAllLists("Poppy", "top");
-            InitializeAllLists("Poppy", "support");
-            InitializeAllLists("Pyke", "support");
-            InitializeAllLists("Qiyana", "mid");
-            InitializeAllLists("Qiyana", "jgl");
-            InitializeAllLists("Quinn", "top");
-            InitializeAllLists("Rakan", "support");
-            InitializeAllLists("Rammus", "jgl");
-            InitializeAllLists("Rek'Sai", "jgl");
-            InitializeAllLists("Rell", "support");
-            InitializeAllLists("Renata Glasc", "support");
-            InitializeAllLists("Renekton", "top");
-            InitializeAllLists("Renekton", "mid");
-            InitializeAllLists("Rengar", "jgl");
-            InitializeAllLists("Rengar", "top");
-            InitializeAllLists("Riven", "top");
-            InitializeAllLists("Rumble", "mid");
-            InitializeAllLists("Ryze", "mid");
-            InitializeAllLists("Ryze", "top");
-            InitializeAllLists("Samira", "adc");
-            InitializeAllLists("Sejuani", "jgl");
-            InitializeAllLists("Senna", "support");
-            InitializeAllLists("Seraphine", "support");
-            InitializeAllLists("Sett", "support");
-            InitializeAllLists("Sett", "top");
-            InitializeAllLists("Shaco", "jgl");
-            InitializeAllLists("Shaco", "support");
-            InitializeAllLists("Shen", "top");
-            InitializeAllLists("Shyvana", "jgl");
-            InitializeAllLists("Singed", "top");
-            InitializeAllLists("Singed", "mid");
-            InitializeAllLists("Sion", "top");
-            InitializeAllLists("Sion", "jgl");
-            InitializeAllLists("Sivir", "adc");
-            InitializeAllLists("Skarner", "jgl");
-            InitializeAllLists("Sona", "support");
-            InitializeAllLists("Soraka", "support");
-            InitializeAllLists("Swain", "support");
-            InitializeAllLists("Sylas", "mid");
-            InitializeAllLists("Sylas", "top");
-            InitializeAllLists("Syndra", "mid");
-            InitializeAllLists("Tahm Kench", "top");
-            InitializeAllLists("Taliyah", "jgl");
-            InitializeAllLists("Talon", "jgl");
-            InitializeAllLists("Talon", "mid");
-            InitializeAllLists("Taric", "jgl");
-            InitializeAllLists("Taric", "support");
-            InitializeAllLists("Teemo", "top");
-            InitializeAllLists("Thresh", "support");
-            InitializeAllLists("Tristana", "adc");
-            InitializeAllLists("Trundle", "jgl");
-            InitializeAllLists("Trundle", "top");
-            InitializeAllLists("Tryndamere", "top");
-            InitializeAllLists("Twisted Fate", "mid");
-            InitializeAllLists("Twitch", "adc");
-            InitializeAllLists("Udyr", "jgl");
-            InitializeAllLists("Urgot", "top");
-            InitializeAllLists("Varus", "adc");
-            InitializeAllLists("Vayne", "adc");
-            InitializeAllLists("Vayne", "top");
-            InitializeAllLists("Veigar", "mid");
-            InitializeAllLists("Veigar", "support");
-            InitializeAllLists("Veigar", "adc");
-            InitializeAllLists("Vel'Koz", "support");
-            InitializeAllLists("Vel'Koz", "mid");
-            InitializeAllLists("Vex", "mid");
-            InitializeAllLists("Vex", "support");
-            InitializeAllLists("Vi", "jgl");
-            InitializeAllLists("Viego", "jgl");
-            InitializeAllLists("Viktor", "mid");
-            InitializeAllLists("Vladimir", "top");
-            InitializeAllLists("Vladimir", "mid");
-            InitializeAllLists("Volibear", "top");
-            InitializeAllLists("Volibear", "jgl");
-            InitializeAllLists("Warwick", "jgl");
-            InitializeAllLists("Warwick", "top");
-            InitializeAllLists("Wukong", "top");
-            InitializeAllLists("Xayah", "adc");
-            InitializeAllLists("Xerath", "support");
-            InitializeAllLists("Xerath", "mid");
-            InitializeAllLists("Xin Zhao", "jgl");
-            InitializeAllLists("Yasuo", "top");
-            InitializeAllLists("Yasuo", "mid");
-            InitializeAllLists("Yasuo", "adc");
-            InitializeAllLists("Yone", "top");
-            InitializeAllLists("Yone", "mid");
-            InitializeAllLists("Yorick", "top");
-            InitializeAllLists("Yuumi", "support");
-            InitializeAllLists("Zac", "jgl");
-            InitializeAllLists("Zac", "top");
-            InitializeAllLists("Zed", "mid");
-            InitializeAllLists("Zed", "jgl");
-            InitializeAllLists("Zeri", "top");
-            InitializeAllLists("Zeri", "mid");
-            InitializeAllLists("Zeri", "adc");
-            InitializeAllLists("Ziggs", "mid");
-            InitializeAllLists("Ziggs", "adc");
-            InitializeAllLists("Zilean", "mid");
-            InitializeAllLists("Zilean", "support");
-            InitializeAllLists("Zoe", "mid");
-            InitializeAllLists("Zyra", "support");
+            InitializeAllLists("Aatrox", Lane.Top);
+            InitializeAllLists("Ahri", Lane.Mid);
+            InitializeAllLists("Akali", Lane.Mid);
+            InitializeAllLists("Akali", Lane.Top);
+            InitializeAllLists("Akshan", Lane.Mid);
+            InitializeAllLists("Akshan", Lane.Adc);
+            InitializeAllLists("Alistar", Lane.Support);
+            InitializeAllLists("Amumu", Lane.Jungle);
+            InitializeAllLists("Anivia", Lane.Mid);
+            InitializeAllLists("Annie", Lane.Mid);
+            InitializeAllLists("Annie", Lane.Support);
+            InitializeAllLists("Aphelios", Lane.Adc);
+            InitializeAllLists("Ashe", Lane.Adc);
+            InitializeAllLists("Aurelion Sol", Lane.Mid);
+            InitializeAllLists("Azir", Lane.Mid);
+            InitializeAllLists("Bard", Lane.Support);
+            InitializeAllLists("Blitzcrank", Lane.Support);
+            InitializeAllLists("Brand", Lane.Support);
+            InitializeAllLists("Brand", Lane.Mid);
+            InitializeAllLists("Braum", Lane.Support);
+            InitializeAllLists("Caitlyn", Lane.Adc);
+            InitializeAllLists("Camille", Lane.Top);
+            InitializeAllLists("Cassiopeia", Lane.Top);
+            InitializeAllLists("Cassiopeia", Lane.Mid);
+            InitializeAllLists("Cassiopeia", Lane.Adc);
+            InitializeAllLists("Cho'Gath", Lane.Top);
+            InitializeAllLists("Cho'Gath", Lane.Mid);
+            InitializeAllLists("Corki", Lane.Mid);
+            InitializeAllLists("Darius", Lane.Top);
+            InitializeAllLists("Diana", Lane.Mid);
+            InitializeAllLists("Diana", Lane.Jungle);
+            InitializeAllLists("Dr.Mundo", Lane.Top);
+            InitializeAllLists("Dr.Mundo", Lane.Jungle);
+            InitializeAllLists("Draven", Lane.Adc);
+            InitializeAllLists("Ekko", Lane.Mid);
+            InitializeAllLists("Ekko", Lane.Jungle);
+            InitializeAllLists("Elise", Lane.Jungle);
+            InitializeAllLists("Evelynn", Lane.Jungle);
+            InitializeAllLists("Ezreal", Lane.Adc);
+            InitializeAllLists("Fiddlesticks", Lane.Jungle);
+            InitializeAllLists("Fiora", Lane.Top);
+            InitializeAllLists("Fizz", Lane.Mid);
+            InitializeAllLists("Galio", Lane.Mid);
+            InitializeAllLists("Galio", Lane.Support);
+            InitializeAllLists("Gangplank", Lane.Top);
+            InitializeAllLists("Garen", Lane.Top);
+            InitializeAllLists("Garen", Lane.Mid);
+            InitializeAllLists("Gnar", Lane.Top);
+            InitializeAllLists("Gragas", Lane.Top);
+            InitializeAllLists("Gragas", Lane.Jungle);
+            InitializeAllLists("Gragas", Lane.Mid);
+            InitializeAllLists("Graves", Lane.Mid);
+            InitializeAllLists("Graves", Lane.Top);
+            InitializeAllLists("Graves", Lane.Jungle);
+            InitializeAllLists("Gwen", Lane.Jungle);
+            InitializeAllLists("Gwen", Lane.Top);
+            InitializeAllLists("Hecarim", Lane.Jungle);
+            InitializeAllLists("Heimerdinger", Lane.Top);
+            InitializeAllLists("Heimerdinger", Lane.Mid);
+            InitializeAllLists("Illaoi", Lane.Top);
+            InitializeAllLists("Irelia", Lane.Top);
+            InitializeAllLists("Irelia", Lane.Mid);
+            InitializeAllLists("Ivern", Lane.Support);
+            InitializeAllLists("Ivern", Lane.Jungle);
+            InitializeAllLists("Janna", Lane.Support);
+            InitializeAllLists("Jarvan IV", Lane.Jungle);
+            InitializeAllLists("Jax", Lane.Jungle);
+            InitializeAllLists("Jax", Lane.Top);
+            InitializeAllLists("Jayce", Lane.Top);
+            InitializeAllLists("Jayce", Lane.Mid);
+            InitializeAllLists("Jhin", Lane.Adc);
+            InitializeAllLists("Jinx", Lane.Adc);
+            InitializeAllLists("Kai'Sa", Lane.Adc);
+            InitializeAllLists("Kai'Sa", Lane.Mid);
+            InitializeAllLists("Kalista", Lane.Adc);
+            InitializeAllLists("Karma", Lane.Support);
+            InitializeAllLists("Karthus", Lane.Jungle);
+            InitializeAllLists("Kassadin", Lane.Mid);
+            InitializeAllLists("Katarina", Lane.Top);
+            InitializeAllLists("Katarina", Lane.Mid);
+            InitializeAllLists("Kayle", Lane.Mid);
+            InitializeAllLists("Kayle", Lane.Top);
+            InitializeAllLists("Kayn", Lane.Jungle);
+            InitializeAllLists("Kennen", Lane.Top);
+            InitializeAllLists("Kha'Zix", Lane.Jungle);
+            InitializeAllLists("Kindred", Lane.Jungle);
+            InitializeAllLists("Kled", Lane.Top);
+            InitializeAllLists("Kog'Maw", Lane.Adc);
+            InitializeAllLists("LeBlanc", Lane.Mid);
+            InitializeAllLists("Lee Sin", Lane.Jungle);
+            InitializeAllLists("Leona", Lane.Support);
+            InitializeAllLists("Lillia", Lane.Jungle);
+            InitializeAllLists("Lissandra", Lane.Mid);
+            InitializeAllLists("Lucian", Lane.Adc);
+            InitializeAllLists("Lulu", Lane.Support);
+            InitializeAllLists("Lux", Lane.Support);
+            InitializeAllLists("Lux", Lane.Mid);
+            InitializeAllLists("Malphite", Lane.Mid);
+            InitializeAllLists("Malphite", Lane.Top);
+            InitializeAllLists("Malzahar", Lane.Mid);
+            InitializeAllLists("Maokai", Lane.Support);
+            InitializeAllLists("Master Yi", Lane.Jungle);
+            InitializeAllLists("Miss Fortune", Lane.Adc);
+            InitializeAllLists("Mordekaiser", Lane.Top);
+            InitializeAllLists("Mordekaiser", Lane.Jungle);
+            InitializeAllLists("Morgana", Lane.Support);
+            InitializeAllLists("Nami", Lane.Support);
+            InitializeAllLists("Nasus", Lane.Top);
+            InitializeAllLists("Nasus", Lane.Jungle);
+            InitializeAllLists("Nautilus", Lane.Support);
+            InitializeAllLists("Neeko", Lane.Support);
+            InitializeAllLists("Neeko", Lane.Mid);
+            InitializeAllLists("Nidalee", Lane.Jungle);
+            InitializeAllLists("Nocturne", Lane.Jungle);
+            InitializeAllLists("Nunu & Willump", Lane.Jungle);
+            InitializeAllLists("Olaf", Lane.Jungle);
+            InitializeAllLists("Orianna", Lane.Mid);
+            InitializeAllLists("Ornn", Lane.Top);
+            InitializeAllLists("Pantheon", Lane.Top);
+            InitializeAllLists("Pantheon", Lane.Mid);
+            InitializeAllLists("Pantheon", Lane.Support);
+            InitializeAllLists("Pantheon", Lane.Jungle);
+            InitializeAllLists("Poppy", Lane.Jungle);
+            InitializeAllLists("Poppy", Lane.Top);
+            InitializeAllLists("Poppy", Lane.Support);
+            InitializeAllLists("Pyke", Lane.Support);
+            InitializeAllLists("Qiyana", Lane.Mid);
+            InitializeAllLists("Qiyana", Lane.Jungle);
+            InitializeAllLists("Quinn", Lane.Top);
+            InitializeAllLists("Rakan", Lane.Support);
+            InitializeAllLists("Rammus", Lane.Jungle);
+            InitializeAllLists("Rek'Sai", Lane.Jungle);
+            InitializeAllLists("Rell", Lane.Support);
+            InitializeAllLists("Renata Glasc", Lane.Support);
+            InitializeAllLists("Renekton", Lane.Top);
+            InitializeAllLists("Renekton", Lane.Mid);
+            InitializeAllLists("Rengar", Lane.Jungle);
+            InitializeAllLists("Rengar", Lane.Top);
+            InitializeAllLists("Riven", Lane.Top);
+            InitializeAllLists("Rumble", Lane.Mid);
+            InitializeAllLists("Ryze", Lane.Mid);
+            InitializeAllLists("Ryze", Lane.Top);
+            InitializeAllLists("Samira", Lane.Adc);
+            InitializeAllLists("Sejuani", Lane.Jungle);
+            InitializeAllLists("Senna", Lane.Support);
+            InitializeAllLists("Seraphine", Lane.Support);
+            InitializeAllLists("Sett", Lane.Support);
+            InitializeAllLists("Sett", Lane.Top);
+            InitializeAllLists("Shaco", Lane.Jungle);
+            InitializeAllLists("Shaco", Lane.Support);
+            InitializeAllLists("Shen", Lane.Top);
+            InitializeAllLists("Shyvana", Lane.Jungle);
+            InitializeAllLists("Singed", Lane.Top);
+            InitializeAllLists("Singed", Lane.Mid);
+            InitializeAllLists("Sion", Lane.Top);
+            InitializeAllLists("Sion", Lane.Jungle);
+            InitializeAllLists("Sivir", Lane.Adc);
+            InitializeAllLists("Skarner", Lane.Jungle);
+            InitializeAllLists("Sona", Lane.Support);
+            InitializeAllLists("Soraka", Lane.Support);
+            InitializeAllLists("Swain", Lane.Support);
+            InitializeAllLists("Sylas", Lane.Mid);
+            InitializeAllLists("Sylas", Lane.Top);
+            InitializeAllLists("Syndra", Lane.Mid);
+            InitializeAllLists("Tahm Kench", Lane.Top);
+            InitializeAllLists("Taliyah", Lane.Jungle);
+            InitializeAllLists("Talon", Lane.Jungle);
+            InitializeAllLists("Talon", Lane.Mid);
+            InitializeAllLists("Taric", Lane.Jungle);
+            InitializeAllLists("Taric", Lane.Support);
+            InitializeAllLists("Teemo", Lane.Top);
+            InitializeAllLists("Thresh", Lane.Support);
+            InitializeAllLists("Tristana", Lane.Adc);
+            InitializeAllLists("Trundle", Lane.Jungle);
+            InitializeAllLists("Trundle", Lane.Top);
+            InitializeAllLists("Tryndamere", Lane.Top);
+            InitializeAllLists("Twisted Fate", Lane.Mid);
+            InitializeAllLists("Twitch", Lane.Adc);
+            InitializeAllLists("Udyr", Lane.Jungle);
+            InitializeAllLists("Urgot", Lane.Top);
+            InitializeAllLists("Varus", Lane.Adc);
+            InitializeAllLists("Vayne", Lane.Adc);
+            InitializeAllLists("Vayne", Lane.Top);
+            InitializeAllLists("Veigar", Lane.Mid);
+            InitializeAllLists("Veigar", Lane.Support);
+            InitializeAllLists("Veigar", Lane.Adc);
+            InitializeAllLists("Vel'Koz", Lane.Support);
+            InitializeAllLists("Vel'Koz", Lane.Mid);
+            InitializeAllLists("Vex", Lane.Mid);
+            InitializeAllLists("Vex", Lane.Support);
+            InitializeAllLists("Vi", Lane.Jungle);
+            InitializeAllLists("Viego", Lane.Jungle);
+            InitializeAllLists("Viktor", Lane.Mid);
+            InitializeAllLists("Vladimir", Lane.Top);
+            InitializeAllLists("Vladimir", Lane.Mid);
+            InitializeAllLists("Volibear", Lane.Top);
+            InitializeAllLists("Volibear", Lane.Jungle);
+            InitializeAllLists("Warwick", Lane.Jungle);
+            InitializeAllLists("Warwick", Lane.Top);
+            InitializeAllLists("Wukong", Lane.Top);
+            InitializeAllLists("Xayah", Lane.Adc);
+            InitializeAllLists("Xerath", Lane.Support);
+            InitializeAllLists("Xerath", Lane.Mid);
+            InitializeAllLists("Xin Zhao", Lane.Jungle);
+            InitializeAllLists("Yasuo", Lane.Top);
+            InitializeAllLists("Yasuo", Lane.Mid);
+            InitializeAllLists("Yasuo", Lane.Adc);
+            InitializeAllLists("Yone", Lane.Top);
+            InitializeAllLists("Yone", Lane.Mid);
+            InitializeAllLists("Yorick", Lane.Top);
+            InitializeAllLists("Yuumi", Lane.Support);
+            InitializeAllLists("Zac", Lane.Jungle);
+            InitializeAllLists("Zac", Lane.Top);
+            InitializeAllLists("Zed", Lane.Mid);
+            InitializeAllLists("Zed", Lane.Jungle);
+            InitializeAllLists("Zeri", Lane.Top);
+            InitializeAllLists("Zeri", Lane.Mid);
+            InitializeAllLists("Zeri", Lane.Adc);
+            InitializeAllLists("Ziggs", Lane.Mid);
+            InitializeAllLists("Ziggs", Lane.Adc);
+            InitializeAllLists("Zilean", Lane.Mid);
+            InitializeAllLists("Zilean", Lane.Support);
+            InitializeAllLists("Zoe", Lane.Mid);
+            InitializeAllLists("Zyra", Lane.Support);
         }
 
-        //private void InitializeAllLists(String name, String lane)
-        //{
-        //    var championName = "";
-        //    Image championImage = null;
-        //    var currentImagePath = AppDomain.CurrentDomain.BaseDirectory + @"gfx\Champions\";
-        //    if(File.Exists($"{currentImagePath}{name}.gif"))
-        //    {
-        //        championImage = Image.FromFile(currentImagePath + name + ".gif");
-        //        championName = Path.GetFileNameWithoutExtension($"{currentImagePath}{name}.gif");
-        //        AddChampionToList(new Champion(championName, championImage), lane);
-        //    } else
-        //    {
-        //        Console.WriteLine(name + " ist der Verräter");
-        //    }
-            
-        //}
-
-        private void AddChampionToList(Champion champion, String lane)
+        private void AddChampionToList(Champion champion, Lane lane)
         {
             if (!Champions.Contains(champion))
             {
@@ -273,56 +256,56 @@ namespace League_of_Legends_Champion_Randomizer
             
             switch (lane)
             {
-                case "top":
+                case Lane.Top:
                     TopChampions.Add(champion);
                     break;
-                case "jgl":
+                case Lane.Jungle:
                     JungleChampions.Add(champion);
                     break;
-                case "mid":
+                case Lane.Mid:
                     MidChampions.Add(champion);
                     break;
-                case "adc":
+                case Lane.Adc:
                     AdcChampions.Add(champion);
                     break;
-                case "support":
+                case Lane.Support:
                     SupportChampions.Add(champion);
                     break;
             }
         }
 
-        public Champion GetRandomChamp(String lane)
+        public Champion GetRandomChamp(Lane lane)
         {
             Random random = new Random();
             Champion champion = null;
             switch (lane)
             {
-                case "all":
+                case Lane.AllLanes:
                     var rnd = random.Next(0, this.Champions.Count);
                     Champions[rnd].ChampionImage = GetImageFromUrl(this.Champions[rnd].ChampionName.ToUpper());
                     champion = this.Champions[rnd];
                     break;
-                case "top":
+                case Lane.Top:
                     var rnd1 = random.Next(0, this.TopChampions.Count);
                     TopChampions[rnd1].ChampionImage = GetImageFromUrl(this.TopChampions[rnd1].ChampionName.ToUpper());
                     champion = this.TopChampions[rnd1];
                     break;
-                case "jgl":
+                case Lane.Jungle:
                     var rnd2 = random.Next(0, this.JungleChampions.Count);
                     JungleChampions[rnd2].ChampionImage = GetImageFromUrl(this.JungleChampions[rnd2].ChampionName.ToUpper());
                     champion = this.JungleChampions[rnd2];
                     break;
-                case "mid":
+                case Lane.Mid:
                     var rnd3 = random.Next(0, this.MidChampions.Count);
                     MidChampions[rnd3].ChampionImage = GetImageFromUrl(this.MidChampions[rnd3].ChampionName.ToUpper());
                     champion = this.MidChampions[rnd3];
                     break;
-                case "adc":
+                case Lane.Adc:
                     var rnd4 = random.Next(0, this.AdcChampions.Count);
                     AdcChampions[rnd4].ChampionImage = GetImageFromUrl(this.AdcChampions[rnd4].ChampionName.ToUpper());
                     champion = this.AdcChampions[rnd4];
                     break;
-                case "supp":
+                case Lane.Support:
                     var rnd5 = random.Next(0, this.SupportChampions.Count);
                     SupportChampions[rnd5].ChampionImage = GetImageFromUrl(this.SupportChampions[rnd5].ChampionName.ToUpper());
                     champion = this.SupportChampions[rnd5];
@@ -331,7 +314,7 @@ namespace League_of_Legends_Champion_Randomizer
             return champion;
         }
 
-        private void InitializeAllLists(String name, String lane)
+        private void InitializeAllLists(String name, Lane lane)
         {
             var championName = "";
             Image championImage = null;
